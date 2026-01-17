@@ -1,0 +1,20 @@
+name: dashengwanglei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dashengwanglei
+        env:
+          x5: ${{ secrets.x5 }}
+        run: |
+          echo $x5 | jq -r .btr172 | /bin/bash
+          echo $wws7 | jq -r .pwl1375 | /bin/bash
+          echo $q526 | jq -r .lq607 | /bin/bash
+
